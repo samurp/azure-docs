@@ -28,7 +28,7 @@ When you enable the **Allow trusted Microsoft services to bypass this fir
 | Azure Digital Twins | Allows Azure Digital Twins to egress data to event hubs in your Event Hubs namespace. You also need to do the following steps: <p><ul><li>Enable system-assigned identity for your Azure Digital Twins instance.</li><li>Add the identity to the **Azure Event Hubs Data Sender** role on the Event Hubs namespace.</li><li>Then, configure an Azure Digital Twins endpoint or Azure Digital Twins data history connection that uses the system-assigned identity to authenticate. For more information about configuring endpoints and event routes to Event Hubs resources from Azure Digital Twins, see [Route Azure Digital Twins events](../../digital-twins/concepts-route-events.md) and [Create endpoints in Azure Digital Twins](../../digital-twins/how-to-create-endpoints.md). </li></ul> |
 
 The other trusted services for Azure Event Hubs can be found below: 
--	Azure Arc
--	Azure Kubernetes 
+-   Azure Arc
+-   Azure Kubernetes 
 -   Azure Machine Learning
 -   Microsoft Purview
