@@ -32,4 +32,3 @@ The other trusted services for Azure Event Hubs can be found below:
 -	Azure Kubernetes 
 -   Azure Machine Learning
 -   Microsoft Purview
-
